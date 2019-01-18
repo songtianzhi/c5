@@ -53,7 +53,16 @@ int main(){
             
         }
         if (code == 3) {
+            printf("所有学生成绩如下：\n");
             
+            for(int i = 0; i < index; i++)
+            {
+                printf("第%d个学生的姓名为%s,语文成绩为：%d,数学成绩为：%d,英语成绩为：%d",i+1,arr[i].name,arr[i],arr[i].yuwen,arr[i].shuxue,arr[i].yingyu);
+            }
+            printf("显示成功，点击回车继续\n");
+            char x ;
+            scanf("%c",&x);
+            scanf("%c",&x);
         }
         if (code == 4) {
             
